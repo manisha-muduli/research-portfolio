@@ -74,3 +74,6 @@ header{position:relative;gap:24px}header>nav{margin-left:auto}.quick-menu{positi
 .section-heading:has(.single-line-title){max-width:100%}
 .single-line-title{white-space:nowrap;font-size:clamp(24px,6.8vw,79px);letter-spacing:-.045em}
 
+
+/* Compact About portrait, aligned with the biography on desktop. */
+@media(min-width:801px){.about-portrait{width:230px;max-width:100%}}
