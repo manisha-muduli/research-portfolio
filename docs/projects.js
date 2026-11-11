@@ -1,0 +1,1 @@
+const b=document.getElementById('figure-motion');if(b){b.addEventListener('click',()=>{const paused=document.body.classList.toggle('illustrations-paused');b.setAttribute('aria-pressed',String(paused));b.textContent=paused?'Play illustrations ▷':'Pause illustrations Ⅱ'})}

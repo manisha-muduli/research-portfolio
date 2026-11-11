@@ -1,0 +1,9 @@
+# Track only the portfolio website and repository documentation.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+/docs/**/.DS_Store
+/docs/**/Thumbs.db
+/docs/**/.env
+/docs/**/.env.*
